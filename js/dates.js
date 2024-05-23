@@ -1,19 +1,19 @@
 //STEP 1
 // const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
-// let month = window.prompt("Enter a month as a digit:\nE.g., January = 1, February = 2, etc.");
-// let year = window.prompt("Enter a year");
+// let month = prompt("Enter a month as a digit:\nE.g., January = 1, February = 2, etc.");
+// let year = prompt("Enter a year");
 
 // if (isNaN(month) || isNaN(year)) {
-//     window.console.log("Please enter valid numbers for the month and year");
+//     console.log("Please enter valid numbers for the month and year");
 // } else {
 //     month = parseInt(month, 10);
 //     if (month < 1 || month > 12) {
-//         window.console.log("Please enter a valid month.");
+//         console.log("Please enter a valid month.");
 //     } else {
 //         year = parseInt(year, 10);
 //         let date = new Date(year, month, 0);
-//         window.console.log("There are " + date.getDate() + " days in " + months[date.getMonth()] + " " + date.getFullYear());
+//         console.log("There are " + date.getDate() + " days in " + months[date.getMonth()] + " " + date.getFullYear());
 //     }
 // }
 
